@@ -1,4 +1,8 @@
 void main(List<String> args) {
+  /*
+    * Typo nombreVariable = valor;
+   */
+  // Dinamic es como javascript
   dynamic v;
   print('Valor defecto: ${v.runtimeType}'); /* Null */
 
