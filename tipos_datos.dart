@@ -38,9 +38,14 @@ void main(List<String> args) {
   const String c = 'se conoce el valor antes de la ejecución';
   print(c);
 
-  // const d = a(); no se puede inicializar con una funcion o valor que aun no se sabe
+  /* COMENTARIO DE VARIAS LÍNEAS
+    const d = a(); no se puede inicializar con una funcion o valor que aun no se sabe
+  */
 
-  // * Final se usa para cuando el valor se asignará en tiempo de ejecución
+  /**
+   * COMENTARIO PARA DOCUMENTAR CÓDIGO
+   * Final se usa para cuando el valor se asignará en tiempo de ejecución
+   */
   final DateTime e = DateTime.now();
   print(e);
 }
