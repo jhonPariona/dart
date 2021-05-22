@@ -20,3 +20,4 @@
 - [maps](map.dart)
 - [operadores](operadores.dart)
 - [notacion cascada](notacionCascada.dart)
+- [sentencias de control](sentenciasControl.dart)
