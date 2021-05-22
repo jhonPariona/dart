@@ -10,6 +10,8 @@
 
 > No existen los arreglos pero si las listas(coleccion de objetos)
 
+> los assert(expresionBool)  solo funcionan cuando debugeamos nuestro código
+
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
