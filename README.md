@@ -8,9 +8,12 @@
 
 > todo terminar en `;`
 
+> No existen los arreglos pero si las listas(coleccion de objetos)
+
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
 - [funciones](funciones.dart)
 - [string](String.dart)
 - [string buffer](stringBuffer.dart)
+- [listas](listas.dart)
