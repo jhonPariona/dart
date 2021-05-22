@@ -7,3 +7,10 @@
 > No existe public, protected ni private; para private se usa `_identificador`
 
 > todo terminar en `;`
+
+
+## Indice
+- [tipos datos](tipos_datos.dart)
+- [funciones](funciones.dart)
+- [string](String.dart)
+- [string buffer](stringBuffer.dart)
