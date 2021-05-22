@@ -18,3 +18,4 @@
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
 - [maps](map.dart)
+- [operadores](operadores.dart)
