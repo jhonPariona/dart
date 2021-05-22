@@ -2,6 +2,7 @@ void main(List<String> args) {
   /*
     * Typo nombreVariable = valor;
    */
+
   // Dinamic es como javascript
   dynamic v;
   print('Valor defecto: ${v.runtimeType}'); /* Null */
@@ -42,12 +43,12 @@ void main(List<String> args) {
   const String c = 'se conoce el valor antes de la ejecución';
   print(c);
 
-  /* COMENTARIO DE VARIAS LÍNEAS
+  /* * COMENTARIO DE VARIAS LÍNEAS
     const d = a(); no se puede inicializar con una funcion o valor que aun no se sabe
   */
 
   /**
-   * COMENTARIO PARA DOCUMENTAR CÓDIGO
+   * *COMENTARIO PARA DOCUMENTAR CÓDIGO
    * Final se usa para cuando el valor se asignará en tiempo de ejecución
    */
   final DateTime e = DateTime.now();
