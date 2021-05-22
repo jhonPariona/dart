@@ -17,3 +17,4 @@
 - [string](String.dart)
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
+- [maps](map.dart)
