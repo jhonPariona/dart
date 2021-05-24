@@ -12,6 +12,12 @@
 
 > los assert(expresionBool)  solo funcionan cuando debugeamos nuestro código
 
+>  v ??= "valor de v si es nullo"
+
+> las funciones son objetos de primera clase por que se pueden pasar funciones a otras funciones
+
+> Existen arrow functions `String nameF() => "retorno"`
+
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
@@ -24,3 +30,4 @@
 - [notacion cascada](notacionCascada.dart)
 - [sentencias de control](sentenciasControl.dart)
 - [bucles](bucles.dart)
+- [mixins](mixins.dart)
