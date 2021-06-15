@@ -4,6 +4,18 @@ main(List<String> args) {
     print("for $i");
     break;
   } /* 0 */
+  
+  // for in
+  var numbers = [1, 2, 3];
+  
+  for (var n in numbers){
+   print(n) ;
+  } /*1 2 3*/
+  
+  // for each
+  var numbers = [1, 2, 3];
+  
+  numbers.forEach((n)=>print(n)); /*1 2 3*/
 
   // while
   int contador = 0;
@@ -22,17 +34,4 @@ main(List<String> args) {
     print("do while $c");
     c++;
   } while (c < 10);
-
-  // switch compara numeros, cadenas o constantes
-  int opcion = 8;
-  switch (opcion) {
-    case 1:
-      print("1");
-      break;
-    case 2:
-      print("2");
-      break;
-    default:
-      print("default");
-  }
 }
