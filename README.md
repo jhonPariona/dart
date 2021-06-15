@@ -21,12 +21,12 @@
 - [tipos datos](tipos_datos.dart)
 - [string](String.dart)
 - [Entrada de ususario](entradausuario.dart)
-- [funciones](funciones.dart)
 - [bucles](bucles.dart)
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
 - [set](Set.dart)
 - [maps](map.dart)
+- [funciones](funciones.dart)
 - [notacion cascada](notacionCascada.dart)
 - [mixins](mixins.dart)
 
