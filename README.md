@@ -23,7 +23,7 @@
 ## Indice
 - [tipos datos](tipos_datos.dart)
 - [string](String.dart)
-- [NUmbers](NUmber.dart)
+- [NUmbers](Number.dart)
 - [Entrada de ususario](entradausuario.dart)
 - [bucles](bucles.dart)
 - [string buffer](stringBuffer.dart)
