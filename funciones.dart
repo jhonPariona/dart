@@ -17,6 +17,7 @@ main() {
   /* -------------------------------------------------------------------------- */
   /*                              named parameters                              */
   /* -------------------------------------------------------------------------- */
+  // {} parametros opcionales y se les puede llamar por su identificar sin importar el orden
   // ? significa que acepta nullo, = podemos asignar valor por defecto
   void funParamOpcionales(int n = 0, {String? opcional, String? otro}) {
     print('$opcional y $otro de $n');
@@ -35,6 +36,7 @@ main() {
   /* -------------------------------------------------------------------------- */
   /*                            positional parameters                           */
   /* -------------------------------------------------------------------------- */
+  // parametros opcionales pero se les debe pasar segun el orden establecido
   void funPositionalParameter(int n, [String? opcional, String? otro]) {
     print('$opcional y $otro de $n');
   }
