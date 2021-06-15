@@ -16,20 +16,6 @@
 
 > Existen arrow functions `String nameF() => "retorno"`
 
-## Comentarios
-
-```dart
-// comentario de una línea
-
-/*
-comentario
-de multiples
-lineas
-*/
-
-/// documentación
-```
-
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
@@ -44,6 +30,39 @@ lineas
 - [sentencias de control](sentenciasControl.dart)
 - [bucles](bucles.dart)
 - [mixins](mixins.dart)
+
+
+## Comentarios
+
+```dart
+// comentario de una línea
+
+/*
+comentario
+de multiples
+lineas
+*/
+
+/// documentación
+```
+
+## Operadores
+
+```dart
+// ARITMÉTICOS + - * / %
+// += =+ -= =- *= =* /= =/
+
+// RELACIONAL == != >= <=
+
+// UNARIO ++nameVar nameVar++ --nameVar nameVar--
+
+// LOGICOS && ||
+
+// ? accede a la propiedad si es q existe;  ?? valor que se le asignara si es null
+
+// ternary condition ? true : false;
+
+```
 
 
 ## CURSOS
