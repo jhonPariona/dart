@@ -25,7 +25,6 @@
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
 - [maps](map.dart)
-- [operadores](operadores.dart)
 - [notacion cascada](notacionCascada.dart)
 - [sentencias de control](sentenciasControl.dart)
 - [bucles](bucles.dart)
@@ -61,6 +60,16 @@ lineas
 // ? accede a la propiedad si es q existe;  ?? valor que se le asignara si es null
 
 // ternary condition ? true : false;
+
+/* -------------------------------------------------------------------------- */
+/*                                    $test                                   */
+/* -------------------------------------------------------------------------- */
+  // is is!
+  int t = 5;
+
+  t is String
+      ? print("Es una cadena")
+      : print("No es una cadena"); /* No es una cadena */
 
 ```
 
