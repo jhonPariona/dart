@@ -16,6 +16,20 @@
 
 > Existen arrow functions `String nameF() => "retorno"`
 
+## Comentarios
+
+```dart
+// comentario de una línea
+
+/*
+comentario
+de multiples
+lineas
+*/
+
+/// documentación
+```
+
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
