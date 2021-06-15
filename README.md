@@ -101,4 +101,5 @@ switch (value) {
 
 ## CURSOS
 
-📖 [Dart Programming Tutorial - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
+📖 [Dart Programming Tutorial - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q) | 
+📖 [Curso de Dart y flutter con SQLite desde cero full stack-Alex Joel Pagoada Suazo](https://www.udemy.com/course/curso-de-programacion-de-dart-y-flutter-desde-cero/)
