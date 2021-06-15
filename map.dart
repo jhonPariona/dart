@@ -1,4 +1,9 @@
+// En otros lenguajes se conoce como diccionario
+
 main(List<String> args) {
+  Map <String, String> mi = { 'one':'first', 'two', 'second'}
+  
+  
   Map<String, String> m = new Map();
 
   m.addAll({"one": "first number"});
