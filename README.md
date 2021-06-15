@@ -33,6 +33,7 @@ lineas
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
+- [Entrada de ususario](entradausuario.dart)
 - [funciones](funciones.dart)
 - [string](String.dart)
 - [string buffer](stringBuffer.dart)
@@ -47,4 +48,4 @@ lineas
 
 ## CURSOS
 
-📖 []()
+📖 [Dart Programming Tutorial - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q)
