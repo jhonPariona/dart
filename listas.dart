@@ -42,15 +42,20 @@ main(List<String> args) {
   l.forEach((element) {
     print(element);
   });
+  
+  List<String> fl = ['Mark', 'sandy', 'susana'];
+  var lm = fl.map((i)=>'Data: $i').toList();
+  print(lm); /*[Data: Mark, Data: sandy, Data: susana] se usa mas para fluutter para filtrar listas y pasarlos a widgets*/
 
   /* -------------------------------------------------------------------------- */
   /*                       no modifican la lista original                       */
   /* -------------------------------------------------------------------------- */
-  print(l.reversed); /*(susana, israel)*/
-  print(l.first); /* israel */
-  print(l.last); /* susana */
-  print(l.join(",")); /* israel,susana */
-  print(l.asMap()); /* {0: israel, 1: susana} */
+  List<String> lnm = ["israel", "susana"];
+  print(lnm.reversed); /*(susana, israel)*/
+  print(lnm.first); /* israel */
+  print(lnm.last); /* susana */
+  print(lnm.join(",")); /* israel,susana */
+  print(lnm.asMap()); /* {0: israel, 1: susana} */
 
   /* -------------------------------------------------------------------------- */
   /*                               agregar valores                              */
@@ -84,9 +89,27 @@ main(List<String> args) {
   /* -------------------------------------------------------------------------- */
   /*                                filtrar lista                               */
   /* -------------------------------------------------------------------------- */
-
-  List<String> lf = l.where((element) => element.startsWith("s")).toList();
+  List<String> fl = ['Mark', 'sandy', 'susana'];
+  List<String> lf = fl.where((element) => element.startsWith("s")).toList();
   print(lf); /* [sandy, susana] */
+  
+  /* -------------------------------------------------------------------------- */
+  /*                               Buscar la posición                           */
+  /* -------------------------------------------------------------------------- */
+  List<String> lp = ['Mark', 'sandy', 'susana', 'sandy'];
+  //inmutables
+  print(lp.indexOf("Mark")); /*0*/
+  print(lp.indexOf("Mark", 1)); /*-1 no lo encontró ya q empieza desde la posición 1*/
+  print(lp.lastIndexOf("sandy"));/*3 devuelve la posicion del ultimo q encuentra*/
+  
+  /* -------------------------------------------------------------------------- */
+  /*                                vaciar  lista                               */
+  /* -------------------------------------------------------------------------- */
+  List<String> lv = ['a', 'b'];
+  lv.clear();
+  print(lv); /*[]*/
+  // verificar que la lista esta vacia tbn existe isNotEmpty
+  lv.isEmpty ? print("lista vacia") : (lv.forEach((i) => print(i))); /*[]*/
   
   /* -------------------------------------------------------------------------- */
   /*                                copiar lista                                */
@@ -102,4 +125,11 @@ main(List<String> args) {
   List<int> b = [...a];
   a[0] = 3;
   print(b); /*[1,2]*/
+  
+  /* -------------------------------------------------------------------------- */
+  /*                            Existe en la lista                              */
+  /* -------------------------------------------------------------------------- */ 
+  List<int> el = [1,2];
+  //inmutable
+  print(el.contains(2)); /*true*/
 }
