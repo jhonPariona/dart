@@ -34,6 +34,7 @@
 - [notacion cascada](notacionCascada.dart)
 - [mixins](mixins.dart)
 - [iconos runes](runes.dart)
+- [clases](clases.dart)
 
 
 ## Comentarios
