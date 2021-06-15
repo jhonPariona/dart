@@ -1,5 +1,5 @@
 /*
- * Typo nombreVariable = valor;
+                                                         Typo nombreVariable = valor;
 */
 
 void main(List<String> args) {
@@ -58,16 +58,15 @@ void main(List<String> args) {
   /* -------------------------------------------------------------------------- */
   /*                                 inmutables                                 */
   /* -------------------------------------------------------------------------- */
-  // Se usa si conoces el valor por anticipado y siempre se tiene que inicializar
+  // CONST Se usa si conoces el valor por anticipado y siempre se tiene que inicializar
   const String c = 'se conoce el valor antes de la ejecución';
   print(c);
-  /* COMENTARIO DE VARIAS LÍNEAS
+  /*
     const d = a(); no se puede inicializar con una funcion o valor que aun no se conoce
   */
 
-  /**
-   * COMENTARIO PARA DOCUMENTAR CÓDIGO
-   * Final se usa para cuando el valor se asignará en tiempo de ejecución
+  /*
+   * FINAL se usa para cuando el valor se asignará en tiempo de ejecución
    */
   final DateTime e = DateTime.now();
   print(e);
