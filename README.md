@@ -1,5 +1,7 @@
 <h1 align="center">DART</h1>
 
+> la biblioteca por defecto que contiene los tipos y algunas cosas básicas es dart:core no se necesita importarlo por que se importa automáticamente `import 'dart:core';`
+
 > Todo lo que se puede colocar en una variable es un objeto
 
 > Es fuertemente tipado pero tbn tiene dynamic(funciona como javascript)
