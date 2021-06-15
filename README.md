@@ -56,7 +56,7 @@ lineas
 
 ```dart
 // ARITMÉTICOS + - * / %
-// += =+ -= =- *= =* /= =/
+// += -= *= /= %=
 
 // RELACIONAL == != >= <=
 
