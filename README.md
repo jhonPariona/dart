@@ -26,7 +26,6 @@
 - [listas](listas.dart)
 - [maps](map.dart)
 - [notacion cascada](notacionCascada.dart)
-- [sentencias de control](sentenciasControl.dart)
 - [bucles](bucles.dart)
 - [mixins](mixins.dart)
 
