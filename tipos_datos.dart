@@ -1,5 +1,5 @@
 /*
-                                                         Typo nombreVariable = valor;
+                                                         Tipo nombreVariable = valor;
 */
 
 void main(List<String> args) {
