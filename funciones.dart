@@ -3,6 +3,9 @@ main() {
   int nameF(int parameter) {
     return parameter * 2;
   }
+  
+  // se puede escribir con una rrow function tbn
+  int nameF(int parameter) => parameter * 2;
 
   int result = nameF(2);
   print(result); /* 4 */
