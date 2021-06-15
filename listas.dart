@@ -1,6 +1,14 @@
 //COLECCION ORDENADA DE OBJETOS
 main(List<String> args) {
   /* -------------------------------------------------------------------------- */
+  /*                               lista constantes                             */
+  /* -------------------------------------------------------------------------- */
+  List<String> lc = const ["hola", "mundo"];
+  print(lc); //[hola, mundo]
+  lc[0] = 'adios'; //Uncaught Error: Unsupported operation: indexed set
+  print(lc);
+  
+  /* -------------------------------------------------------------------------- */
   /*                               lista dinamica                               */
   /* -------------------------------------------------------------------------- */
   List d = [];
