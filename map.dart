@@ -17,6 +17,16 @@ main(List<String> args) {
 
   m.addAll({"two": "second"});
   print(m); /* {one: first number, two: second} */
+  
+  /* -------------------------------------------------------------------------- */
+  /*                   Agregar un valor si no existe una llave                  */
+  /* -------------------------------------------------------------------------- */
+  
+  Map<int, int> mne = {1:10, 2:20, 3:30};
+  mne.putIfAbsent(5, (){
+    return 50;
+  });
+  print(mne); /*{1: 10, 2: 20, 3: 30, 5: 50} si es q existe no hace nada*/
 
   /* -------------------------------------------------------------------------- */
   /*                                  recorrer                                  */
@@ -41,4 +51,16 @@ main(List<String> args) {
   print(m); /* {one: first, tree: thirth} */
   m.removeWhere((key, value) => key == "tree");
   print(m); /* {one: first} */
+  
+  /* -------------------------------------------------------------------------- */
+  /*                             Obtener keys y values                          */
+  /* -------------------------------------------------------------------------- */
+  Map<String, String> mkv = {'a': 'A', 'b':'B'};
+  
+  List<String> k = mkv.keys.toList();
+  print('claves $k');/*claves [a, b]*/
+  
+  List<String> v = mkv.values.toList();
+  print('valores $v');/*valores [A, B]*/
+  
 }
