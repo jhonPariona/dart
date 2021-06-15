@@ -1,4 +1,4 @@
-// util para concatenar cadenas eficientemente
+// util para concatenar cadenas eficientemente: no genera ningun objeto hasta que invoquemos toString(recien se almacena en memoria)
 main(List<String> args) {
   StringBuffer b = StringBuffer();
   print(b); /*  */
@@ -16,4 +16,10 @@ main(List<String> args) {
 
   b.clear();
   print(b.isEmpty); /* true */
+  
+  //para crear el objeto
+  StringBuffer sb = new StringBuffer("Hola");
+  sb.write(" Mundo");
+  String sbtos = sb.toString();
+  print(sbtos); //recien se guarda en memoria
 }
