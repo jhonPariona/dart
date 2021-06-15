@@ -72,7 +72,17 @@ lineas
       : print("No es una cadena"); /* No es una cadena */
 
 ```
+## Condicionales
 
+```dart
+if () {
+
+} else if () {
+
+} else {
+
+}
+```
 
 ## CURSOS
 
