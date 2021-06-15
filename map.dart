@@ -4,6 +4,9 @@ main(List<String> args) {
   Map <String, String> mi = { 'one':'first', 'two': 'second'};
   print(mi['two']); /*second*/
   
+  mi['tree'] = 'third';
+  print(mi); //{one: first, two: second, tree: third}
+  
   print(mi.runtimeType); /*JsLinkedHashMap<String, String>*/
   
   
