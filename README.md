@@ -1,6 +1,7 @@
 <h1 align="center">DART</h1>
 <p align="center">
-  <a href="https://dartpad.dev/?null_safety=true" target="_blank">Dartpad probar en vivo los codigos</a>
+  📺 <a href="https://dartpad.dev/?null_safety=true" target="_blank">Dartpad probar en vivo los codigos</a> |
+  📖 <a href="https://dart.dev/guides" target="_blank">Documentación</a>
 </p>
 
 > La biblioteca por defecto que contiene los tipos y algunas cosas básicas es dart:core no se necesita importarlo por que se importa automáticamente `import 'dart:core';`
