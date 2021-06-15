@@ -19,14 +19,14 @@
 
 ## Indice
 - [tipos datos](tipos_datos.dart)
+- [string](String.dart)
 - [Entrada de ususario](entradausuario.dart)
 - [funciones](funciones.dart)
-- [string](String.dart)
+- [bucles](bucles.dart)
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
 - [maps](map.dart)
 - [notacion cascada](notacionCascada.dart)
-- [bucles](bucles.dart)
 - [mixins](mixins.dart)
 
 
