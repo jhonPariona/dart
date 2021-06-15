@@ -1,3 +1,4 @@
+// dart al ser orientado a objetos puro las funciones tienen tipo Function, se puede pasar funciones a otras funciones y tbn asignar funciones a variables
 main() {
   // si no se pone el retorno(int) de la funcion por defecto lo toma como dynamic
   int nameF(int parameter) {
@@ -9,6 +10,12 @@ main() {
 
   int result = nameF(2);
   print(result); /* 4 */
+  
+  /* -------------------------------------------------------------------------- */
+  /*                              funciones en variables                        */
+  /* -------------------------------------------------------------------------- */
+  var fv = (msj)=>msj.toUpperCase();
+  print(fv('hola')); //HOLA
   
   
   /*                                                                  PARAMETROS OPCIONALES                                                                */
