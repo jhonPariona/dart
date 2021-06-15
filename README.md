@@ -25,6 +25,7 @@
 - [bucles](bucles.dart)
 - [string buffer](stringBuffer.dart)
 - [listas](listas.dart)
+- [set](Set.dart)
 - [maps](map.dart)
 - [notacion cascada](notacionCascada.dart)
 - [mixins](mixins.dart)
