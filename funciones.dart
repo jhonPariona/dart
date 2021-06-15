@@ -9,6 +9,10 @@ main() {
 
   int result = nameF(2);
   print(result); /* 4 */
+  
+  
+  /*                                                                  PARAMETROS OPCIONALES                                                                */
+
 
   /* -------------------------------------------------------------------------- */
   /*                              named parameters                              */
