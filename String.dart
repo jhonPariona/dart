@@ -1,3 +1,4 @@
+// se puede usar comillas simples o dobles
 /* -------------------------------------------------------------------------- */
 /*                                   métodos                                  */
 /* -------------------------------------------------------------------------- */
@@ -30,4 +31,15 @@ main(List<String> args) {
 
   // obtiene una parte de la cadena
   print(v.substring(0, 4)); /* hola (indice de inicio, cuantos caracteres) */
+  
+  // string a int
+  int i = int.parse('1');
+  // int a string
+  String s = i.toString();
+  
+  // string a double
+  int d = double.parse('1.0')
+  // double a string
+  String sd = d.toStringAsFixed(2); //devolvera el double con 2 decimales
+  
 }
