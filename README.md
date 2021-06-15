@@ -82,6 +82,15 @@ if () {
 } else {
 
 }
+
+switch (value) {
+  case valueCompare:
+    ...
+    break;
+  default:
+    ...
+}
+
 ```
 
 ## CURSOS
