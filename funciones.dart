@@ -13,8 +13,8 @@ main() {
   /* -------------------------------------------------------------------------- */
   /*                              named parameters                              */
   /* -------------------------------------------------------------------------- */
-  // ? significa que acepta nullo
-  void funParamOpcionales(int n, {String? opcional, String? otro}) {
+  // ? significa que acepta nullo, = podemos asignar valor por defecto
+  void funParamOpcionales(int n = 0, {String? opcional, String? otro}) {
     print('$opcional y $otro de $n');
   }
 
