@@ -100,6 +100,12 @@ switch (value) {
 
 ```
 
+## Lints
+
+> antes se usaba pedantic, ahora ya esta deprecado
+
+[Dart lint](https://github.com/dart-lang/lints)
+
 ## CURSOS
 
 📖 [Dart Programming Tutorial - Full Course - freeCodeCamp.org](https://www.youtube.com/watch?v=Ej_Pcr4uC2Q) | 
